@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=CppTemplate_Winter22
+PROJECTNAME=CppTemplate_Spring22
 
 # Active Configuration
 DEFAULTCONF=Debug

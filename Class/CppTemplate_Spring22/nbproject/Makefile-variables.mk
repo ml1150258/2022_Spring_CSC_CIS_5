@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_1-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_1-Windows
-CND_ARTIFACT_NAME_Debug=cpptemplate_winter22
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/cpptemplate_winter22
+CND_ARTIFACT_NAME_Debug=cpptemplate_spring22
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/cpptemplate_spring22
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_1-Windows/package
-CND_PACKAGE_NAME_Debug=cpptemplatewinter22.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/cpptemplatewinter22.tar
+CND_PACKAGE_NAME_Debug=cpptemplatespring22.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/cpptemplatespring22.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_1-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_1-Windows
-CND_ARTIFACT_NAME_Release=cpptemplate_winter22
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_1-Windows/cpptemplate_winter22
+CND_ARTIFACT_NAME_Release=cpptemplate_spring22
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_1-Windows/cpptemplate_spring22
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_1-Windows/package
-CND_PACKAGE_NAME_Release=cpptemplatewinter22.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_1-Windows/package/cpptemplatewinter22.tar
+CND_PACKAGE_NAME_Release=cpptemplatespring22.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_1-Windows/package/cpptemplatespring22.tar
 #
 # include compiler specific variables
 #
