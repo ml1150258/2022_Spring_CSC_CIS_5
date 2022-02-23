@@ -1,36 +1,35 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on January 3, 2022, 11:20 AM
- * Purpose:  Hello World
+ * Author: Dr. Mark Lehr
+ * Created on February 15, 2022, 11:49 AM
+ * Purpose:  First Program
  */
 
-//System Level Libraries
-#include <iostream>  //Input-Output Library
+//System Libraries
+#include <iostream>  //Input/output Library
 using namespace std;
 
-//User Defined Libraries
+//User Libraries
 
-//Global Constants, not Global Variables
-//These are recognized constants from the sciences
-//Physics/Chemistry/Engineering and Conversions between
-//systems of units!
+//Global Constants
+//Physics/Chemistry/Math/Conversion Higher Dimension Only
 
 //Function Prototypes
 
-//Execution begins here!
+//Program Execution Begins Here!!!
 int main(int argc, char** argv) {
-    //Initialize Random Seed once here!
+    //Set the Random Number Seed
     
     //Declare Variables
     
-    //Initialize Variables
+    //Initial Variables
     
-    //Map the inputs/known to the outputs
+    //Map the Inputs to the Outputs
     
-    //Display the outputs
-    cout<<"Hello World"<<endl;
+    //Display the Inputs and Outputs
+    cout<<"Hello World!"<<endl;
 
-    //Exit the program
+    //Exit the code
     return 0;
 }
+
