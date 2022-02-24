@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=numbers
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/numbers
+CND_ARTIFACT_NAME_Debug=gaddis_9thed_chap2_prob12_landcalculation_v1
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/gaddis_9thed_chap2_prob12_landcalculation_v1
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=numbers.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/numbers.tar
+CND_PACKAGE_NAME_Debug=gaddis9thedchap2prob12landcalculationv1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/gaddis9thedchap2prob12landcalculationv1.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=numbers
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/numbers
+CND_ARTIFACT_NAME_Release=gaddis_9thed_chap2_prob12_landcalculation_v1
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/gaddis_9thed_chap2_prob12_landcalculation_v1
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=numbers.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/numbers.tar
+CND_PACKAGE_NAME_Release=gaddis9thedchap2prob12landcalculationv1.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/gaddis9thedchap2prob12landcalculationv1.tar
 #
 # include compiler specific variables
 #

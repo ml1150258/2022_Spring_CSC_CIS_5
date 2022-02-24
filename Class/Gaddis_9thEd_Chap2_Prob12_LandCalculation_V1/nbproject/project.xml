@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.cnd.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>CPPTemplate</name>
+            <name>Gaddis_9thEd_Chap2_Prob12_LandCalculation_V1</name>
             <c-extensions>cpp</c-extensions>
             <cpp-extensions/>
             <header-extensions/>

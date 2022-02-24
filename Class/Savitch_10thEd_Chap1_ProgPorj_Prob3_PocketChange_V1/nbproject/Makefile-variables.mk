@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=numbers
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/numbers
+CND_ARTIFACT_NAME_Debug=savitch_10thed_chap1_progporj_prob3_pocketchange_v1
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/savitch_10thed_chap1_progporj_prob3_pocketchange_v1
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=numbers.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/numbers.tar
+CND_PACKAGE_NAME_Debug=savitch10thedchap1progporjprob3pocketchangev1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/savitch10thedchap1progporjprob3pocketchangev1.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=numbers
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/numbers
+CND_ARTIFACT_NAME_Release=savitch_10thed_chap1_progporj_prob3_pocketchange_v1
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/savitch_10thed_chap1_progporj_prob3_pocketchange_v1
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=numbers.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/numbers.tar
+CND_PACKAGE_NAME_Release=savitch10thedchap1progporjprob3pocketchangev1.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/savitch10thedchap1progporjprob3pocketchangev1.tar
 #
 # include compiler specific variables
 #
