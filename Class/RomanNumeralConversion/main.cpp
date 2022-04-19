@@ -75,7 +75,8 @@ int main(int argc, char** argv) {
             n10s==5?"L":
             n10s==4?"XL":
             n10s==3?"XXX":
-            n10s==2?"XX":"X";
+            n10s==2?"XX":
+            n10s==1?"X":"";
     
     //Dependent if's - Convert 1's place
     if(n1s==9)     rmNmrl+="IX";
