@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=savingstable_forloop
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/savingstable_forloop
+CND_ARTIFACT_NAME_Debug=savingstable_forloop_array_mvcpattern
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/savingstable_forloop_array_mvcpattern
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=savingstableforloop.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/savingstableforloop.tar
+CND_PACKAGE_NAME_Debug=savingstableforlooparraymvcpattern.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/savingstableforlooparraymvcpattern.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=savingstable_forloop
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/savingstable_forloop
+CND_ARTIFACT_NAME_Release=savingstable_forloop_array_mvcpattern
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/savingstable_forloop_array_mvcpattern
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=savingstableforloop.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/savingstableforloop.tar
+CND_PACKAGE_NAME_Release=savingstableforlooparraymvcpattern.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/savingstableforlooparraymvcpattern.tar
 #
 # include compiler specific variables
 #

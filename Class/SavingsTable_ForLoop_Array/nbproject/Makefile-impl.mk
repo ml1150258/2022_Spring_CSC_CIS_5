@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=SavingsTable_ForLoop
+PROJECTNAME=SavingsTable_ForLoop_Array
 
 # Active Configuration
 DEFAULTCONF=Debug
