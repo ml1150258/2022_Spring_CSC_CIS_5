@@ -85,5 +85,5 @@ bool  isLess(float prob){
 }
 
 float rndProb(){
-    return 1.0f*rand()/(pow(2,31)-1);
+    return 1.0f*rand()/(pow(2,15)-1);
 }

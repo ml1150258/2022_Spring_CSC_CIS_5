@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     //Declare all Variables Here
     int nTerms;//Number of terms in the sequence
     float etox=1;//First Term in the sequence
-    float x=1;//x is the power of e^x
+    float x=2;//x is the power of e^x
     float vTerm=1;//Value of successive terms
     
     //Input or initialize values Here

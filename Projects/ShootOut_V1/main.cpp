@@ -37,6 +37,14 @@ int main(int argc, char** argv) {
     bProb=1.0f/2.0f;
     cProb=1.0f;
     
+    /*int mxRand=0;
+    for(int i=1;i<=1000000;i++){
+        int rnd=rand();
+        if(rnd>mxRand)mxRand=rnd;
+    }
+    cout<<mxRand<<endl;
+    */
+    
     //Play the shoot out game
     do{
         if(aAlive){
@@ -68,5 +76,5 @@ bool  isLess(float prob){
 }
 
 float rndProb(){
-    return 1.0f*rand()/(pow(2,31)-1);
+    return 1.0f*rand()/(pow(2,15)-1);
 }
