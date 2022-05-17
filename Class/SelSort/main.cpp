@@ -25,7 +25,7 @@ void prntAry(int [],int,int);
 void swap1(int &,int &);
 void swap2(int &,int &);
 void smlPos(int [],int,int);
-void mrkSort(int [],int);
+void selSort(int [],int);
 
 //Execution begins here!
 int main(int argc, char** argv) {
@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
     prntAry(array,SIZE,perLine);
     
     //Map the inputs/known to the outputs
-    mrkSort(array,SIZE);
+    selSort(array,SIZE);
     
     //Display the outputs
     prntAry(array,SIZE,perLine);
@@ -52,24 +52,16 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-void mrkSort(int a[],int n){
+void selSort(int a[],int n){
     for(int i=0;i<n-1;i++){
-        smlPos(a,n,i);
-    }
-}
-
-void smlPos(int a[],int n,int pos){
-    for(int i=pos+1;i<n;i++){
-        if(a[pos]>a[i]){
-            swap(a[pos],a[i]);
+        int indx=i;
+        for(int j=i+1;j<n;j++){
+            if(a[indx]>a[j]){
+                indx=j;
+            }
         }
+        swap1(a[i],a[indx]);
     }
-}
-
-void swap2(int &a,int &b){
-    a=a^b;
-    b=a^b;
-    a=a^b;
 }
 
 void swap1(int &a,int &b){

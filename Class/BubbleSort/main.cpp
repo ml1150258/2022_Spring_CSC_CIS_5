@@ -23,9 +23,7 @@ using namespace std;
 void fillAry(int [],int);
 void prntAry(int [],int,int);
 void swap1(int &,int &);
-void swap2(int &,int &);
-void smlPos(int [],int,int);
-void mrkSort(int [],int);
+void bubSort(int [],int);
 
 //Execution begins here!
 int main(int argc, char** argv) {
@@ -43,7 +41,7 @@ int main(int argc, char** argv) {
     prntAry(array,SIZE,perLine);
     
     //Map the inputs/known to the outputs
-    mrkSort(array,SIZE);
+    bubSort(array,SIZE);
     
     //Display the outputs
     prntAry(array,SIZE,perLine);
@@ -52,24 +50,19 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-void mrkSort(int a[],int n){
-    for(int i=0;i<n-1;i++){
-        smlPos(a,n,i);
-    }
-}
-
-void smlPos(int a[],int n,int pos){
-    for(int i=pos+1;i<n;i++){
-        if(a[pos]>a[i]){
-            swap(a[pos],a[i]);
-        }
-    }
-}
-
-void swap2(int &a,int &b){
-    a=a^b;
-    b=a^b;
-    a=a^b;
+void bubSort(int a[],int n){
+    bool swap;
+    int redList=n-1;
+    do{
+        swap=false;
+        for(int i=0;i<redList;i++){
+            if(a[i]>a[i+1]){
+                swap1(a[i],a[i+1]);
+                swap=true;
+            }
+        } 
+        redList--;
+    }while(swap);
 }
 
 void swap1(int &a,int &b){
