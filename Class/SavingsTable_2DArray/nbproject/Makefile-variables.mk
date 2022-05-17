@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=readandquantify2dweatherdata_v1
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/readandquantify2dweatherdata_v1
+CND_ARTIFACT_NAME_Debug=savingstable_2darray
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/savingstable_2darray
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=readandquantify2dweatherdatav1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/readandquantify2dweatherdatav1.tar
+CND_PACKAGE_NAME_Debug=savingstable2darray.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/savingstable2darray.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=readandquantify2dweatherdata_v1
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/readandquantify2dweatherdata_v1
+CND_ARTIFACT_NAME_Release=savingstable_2darray
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/savingstable_2darray
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=readandquantify2dweatherdatav1.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/readandquantify2dweatherdatav1.tar
+CND_PACKAGE_NAME_Release=savingstable2darray.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/savingstable2darray.tar
 #
 # include compiler specific variables
 #

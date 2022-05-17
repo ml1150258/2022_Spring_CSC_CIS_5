@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ReadAndQuantify2DWeatherData_V1
+PROJECTNAME=SavingsTable_2DArray
 
 # Active Configuration
 DEFAULTCONF=Debug

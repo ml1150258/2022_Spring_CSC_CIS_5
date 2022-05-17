@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=marksort
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/marksort
+CND_ARTIFACT_NAME_Debug=marksort_3functionimplementation
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/marksort_3functionimplementation
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=marksort.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/marksort.tar
+CND_PACKAGE_NAME_Debug=marksort3functionimplementation.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/marksort3functionimplementation.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=marksort
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/marksort
+CND_ARTIFACT_NAME_Release=marksort_3functionimplementation
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/marksort_3functionimplementation
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=marksort.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/marksort.tar
+CND_PACKAGE_NAME_Release=marksort3functionimplementation.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/marksort3functionimplementation.tar
 #
 # include compiler specific variables
 #

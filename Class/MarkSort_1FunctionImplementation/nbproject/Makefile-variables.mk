@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=readandquantify2dweatherdata_v1
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/readandquantify2dweatherdata_v1
+CND_ARTIFACT_NAME_Debug=marksort_1functionimplementation
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/marksort_1functionimplementation
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=readandquantify2dweatherdatav1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/readandquantify2dweatherdatav1.tar
+CND_PACKAGE_NAME_Debug=marksort1functionimplementation.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/marksort1functionimplementation.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=readandquantify2dweatherdata_v1
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/readandquantify2dweatherdata_v1
+CND_ARTIFACT_NAME_Release=marksort_1functionimplementation
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/marksort_1functionimplementation
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=readandquantify2dweatherdatav1.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/readandquantify2dweatherdatav1.tar
+CND_PACKAGE_NAME_Release=marksort1functionimplementation.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/marksort1functionimplementation.tar
 #
 # include compiler specific variables
 #
