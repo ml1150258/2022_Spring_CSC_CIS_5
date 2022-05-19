@@ -23,8 +23,6 @@ using namespace std;
 void fillAry(int [],int);
 void prntAry(int [],int,int);
 void mrkSort(int [],int);
-int  linSrch(int [],int, int);
-int  binSrch(int [],int, int);
 
 //Execution begins here!
 int main(int argc, char** argv) {
@@ -35,62 +33,20 @@ int main(int argc, char** argv) {
     const int SIZE=100;
     int array[SIZE];
     int perLine;
-    int value;
     
     //Initialize Variables
-    value=rand()%90+10;
     perLine=10;
     fillAry(array,SIZE);
-    cout<<"Array before Sorting"<<endl;
     prntAry(array,SIZE,perLine);
     
     //Map the inputs/known to the outputs
-    int index=linSrch(array,SIZE,value);
-    cout<<"Searching using the Linear Technique"<<endl;
-    if(index!=-1){
-        cout<<"Value "<<value<<" found at index = "<<index<<endl;
-    }else{
-        cout<<"Value "<<value<<" not found"<<endl;
-    }
+    mrkSort(array,SIZE);
     
     //Display the outputs
-    mrkSort(array,SIZE);
-    cout<<endl<<"Array after Sorting"<<endl;
     prntAry(array,SIZE,perLine);
-    
-    //Map the inputs/known to the outputs
-    index=binSrch(array,SIZE,value);
-    cout<<"Searching using the Binary Technique"<<endl;
-    if(index!=-1){
-        cout<<"Value "<<value<<" found at index = "<<index<<endl;
-    }else{
-        cout<<"Value "<<value<<" not found"<<endl;
-    }
 
     //Exit the program
     return 0;
-}
-
-int  binSrch(int a[],int n, int val2Fnd){
-    int beg=0;   //Beginning Range of the a array
-    int end=n-1; //End point of the a array
-    do{
-        int midPnt=(end+beg)/2;//Calculate the mid point
-        if(a[midPnt]==val2Fnd)return midPnt;
-        else if(a[midPnt]>val2Fnd){
-            end=midPnt-1;
-        }else{
-            beg=midPnt+1;
-        }
-    }while(end>beg);
-    return -1;
-}
-
-int  linSrch(int a[],int n, int val2Fnd){
-    for(int i=0;i<n;i++){
-        if(a[i]==val2Fnd)return i;
-    }
-    return -1;
 }
 
 void mrkSort(int a[],int n){

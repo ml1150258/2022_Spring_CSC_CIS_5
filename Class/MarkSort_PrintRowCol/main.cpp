@@ -8,6 +8,7 @@
 
 //System Level Libraries
 #include <iostream>  //Input-Output Library
+#include <iomanip>   //Formatting
 #include <cstdlib>   //Setting Random Number Seed
 #include <ctime>     //Time Library
 using namespace std;
@@ -20,11 +21,11 @@ using namespace std;
 //systems of units!
 
 //Function Prototypes
-void fillAry(int [],int);
-void prntAry(int [],int,int);
-void mrkSort(int [],int);
-int  linSrch(int [],int, int);
-int  binSrch(int [],int, int);
+void fillAry(char [],int);
+void prntAry(char [],int,int);
+void mrkSort(char [],int);
+int  linSrch(char [],int, char);
+int  binSrch(char [],int, char);
 
 //Execution begins here!
 int main(int argc, char** argv) {
@@ -33,12 +34,12 @@ int main(int argc, char** argv) {
     
     //Declare Variables
     const int SIZE=100;
-    int array[SIZE];
+    char array[SIZE];
     int perLine;
-    int value;
+    char value;
     
     //Initialize Variables
-    value=rand()%90+10;
+    value=rand()%26+65;
     perLine=10;
     fillAry(array,SIZE);
     cout<<"Array before Sorting"<<endl;
@@ -71,7 +72,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-int  binSrch(int a[],int n, int val2Fnd){
+int  binSrch(char a[],int n, char val2Fnd){
     int beg=0;   //Beginning Range of the a array
     int end=n-1; //End point of the a array
     do{
@@ -86,14 +87,14 @@ int  binSrch(int a[],int n, int val2Fnd){
     return -1;
 }
 
-int  linSrch(int a[],int n, int val2Fnd){
+int  linSrch(char a[],int n, char val2Fnd){
     for(int i=0;i<n;i++){
         if(a[i]==val2Fnd)return i;
     }
     return -1;
 }
 
-void mrkSort(int a[],int n){
+void mrkSort(char a[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]>a[j]){
@@ -105,17 +106,27 @@ void mrkSort(int a[],int n){
     }
 }
 
-void prntAry(int a[],int n,int perLine){
+void prntAry(char a[],int n,int perLine){
     cout<<endl;
+    cout<<"  ";
+    for(int i=0;i<perLine;i++){
+        cout<<setw(2)<<i<<"";
+    }
+    cout<<endl;
+    int row=0;
     for(int i=0;i<n;i++){
+        if(i%perLine==0)cout<<setw(2)<<row<<" ";
         cout<<a[i]<<" ";
-        if(i%perLine==(perLine-1))cout<<endl;
+        if(i%perLine==(perLine-1)){
+            cout<<endl;
+            row++;
+        }
     }
     cout<<endl;
 }
 
-void fillAry(int a[],int n){
+void fillAry(char a[],int n){
     for(int i=0;i<n;i++){
-        a[i]=rand()%90+10;//[10,99]
+        a[i]=rand()%26+65;//[10,99]
     }
 }

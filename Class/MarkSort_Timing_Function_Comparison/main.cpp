@@ -22,9 +22,12 @@ using namespace std;
 //Function Prototypes
 void fillAry(int [],int);
 void prntAry(int [],int,int);
-void mrkSort(int [],int);
-int  linSrch(int [],int, int);
-int  binSrch(int [],int, int);
+void swap1(int &,int &);
+void swap2(int &,int &);
+void smlPos(int [],int,int);
+void mrkSort3(int [],int);
+void mrkSort1(int [],int);
+void copyAry(int [],int [],int);
 
 //Execution begins here!
 int main(int argc, char** argv) {
@@ -32,68 +35,43 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables
-    const int SIZE=100;
-    int array[SIZE];
+    const int SIZE=160000;
+    int array[SIZE],brray[SIZE];
     int perLine;
-    int value;
     
     //Initialize Variables
-    value=rand()%90+10;
     perLine=10;
     fillAry(array,SIZE);
-    cout<<"Array before Sorting"<<endl;
-    prntAry(array,SIZE,perLine);
+    copyAry(brray,array,SIZE);
+    //prntAry(array,SIZE,perLine);
+    //prntAry(brray,SIZE,perLine);
     
     //Map the inputs/known to the outputs
-    int index=linSrch(array,SIZE,value);
-    cout<<"Searching using the Linear Technique"<<endl;
-    if(index!=-1){
-        cout<<"Value "<<value<<" found at index = "<<index<<endl;
-    }else{
-        cout<<"Value "<<value<<" not found"<<endl;
-    }
+    int beg=time(0);
+    mrkSort3(array,SIZE);
+    int end=time(0);
+    cout<<"Three function sort took "<<end-beg<<" seconds"<<endl;
+    beg=time(0);
+    mrkSort1(brray,SIZE);
+    end=time(0);
+    cout<<"One function sort took "<<end-beg<<" seconds"<<endl;
+
     
     //Display the outputs
-    mrkSort(array,SIZE);
-    cout<<endl<<"Array after Sorting"<<endl;
-    prntAry(array,SIZE,perLine);
-    
-    //Map the inputs/known to the outputs
-    index=binSrch(array,SIZE,value);
-    cout<<"Searching using the Binary Technique"<<endl;
-    if(index!=-1){
-        cout<<"Value "<<value<<" found at index = "<<index<<endl;
-    }else{
-        cout<<"Value "<<value<<" not found"<<endl;
-    }
+    //prntAry(array,SIZE,perLine);
+    //prntAry(brray,SIZE,perLine);
 
     //Exit the program
     return 0;
 }
 
-int  binSrch(int a[],int n, int val2Fnd){
-    int beg=0;   //Beginning Range of the a array
-    int end=n-1; //End point of the a array
-    do{
-        int midPnt=(end+beg)/2;//Calculate the mid point
-        if(a[midPnt]==val2Fnd)return midPnt;
-        else if(a[midPnt]>val2Fnd){
-            end=midPnt-1;
-        }else{
-            beg=midPnt+1;
-        }
-    }while(end>beg);
-    return -1;
-}
-
-int  linSrch(int a[],int n, int val2Fnd){
+void copyAry(int b[],int a[],int n){
     for(int i=0;i<n;i++){
-        if(a[i]==val2Fnd)return i;
+        b[i]=a[i];
     }
-    return -1;
 }
 
-void mrkSort(int a[],int n){
+void mrkSort1(int a[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]>a[j]){
@@ -103,6 +81,32 @@ void mrkSort(int a[],int n){
             }
         }
     }
+}
+
+void mrkSort3(int a[],int n){
+    for(int i=0;i<n-1;i++){
+        smlPos(a,n,i);
+    }
+}
+
+void smlPos(int a[],int n,int pos){
+    for(int i=pos+1;i<n;i++){
+        if(a[pos]>a[i]){
+            swap1(a[pos],a[i]);
+        }
+    }
+}
+
+void swap2(int &a,int &b){
+    a=a^b;
+    b=a^b;
+    a=a^b;
+}
+
+void swap1(int &a,int &b){
+    int temp=a;
+    a=b;
+    b=temp;
 }
 
 void prntAry(int a[],int n,int perLine){
@@ -116,6 +120,6 @@ void prntAry(int a[],int n,int perLine){
 
 void fillAry(int a[],int n){
     for(int i=0;i<n;i++){
-        a[i]=rand()%90+10;//[10,99]
+        a[i]=rand();
     }
 }
