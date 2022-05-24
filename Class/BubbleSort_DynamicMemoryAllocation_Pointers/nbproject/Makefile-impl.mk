@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ReadAndQuantify2DWeatherData_V2
+PROJECTNAME=BubbleSort_DynamicMemoryAllocation_Pointers
 
 # Active Configuration
 DEFAULTCONF=Debug
